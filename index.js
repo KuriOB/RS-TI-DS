@@ -247,9 +247,11 @@ const calcular = calculadora(num1, num2);
 console.log(calcular)
 */
 
+/*
 function mediaAluno(arrayMedia = []){
     arrayMedia([])/3
 } console.log(mediaArray([6,9,5]));
+*/
 
 // this is a js file
 // Andrey Constante da Silva
@@ -607,3 +609,79 @@ print("O número é ímpar.")
     - esse é um programa simples para determinar se um número é par ou ímpar.
 */
 
+/*
+let i = 0
+
+while(i <= 10) {
+    console.log(i)
+    i++
+}
+*/
+
+/*
+let estomago = 0;
+
+while (estomago < 100) {
+    console.log("Quero comer mais coxinhas");
+    estomago = estomago + 10;
+}
+*/
+
+/*
+var num = 1;
+let somar = 0
+
+while (num !== 0) {
+   num = Number(prompt("digite um número, ou 0 para terminar"))
+    somar += num;
+}
+    console.log('a soma dos números é: ', somar);
+}
+*/
+
+/*
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+*/
+
+/*
+const numeros = [14, 67, 89, 15, 23]
+
+for (let i = 0; i < numeros.length; i++) {
+    const elemento = numeros[i];
+    console.log(elemento)
+}
+*/
+
+/*
+function dizerOMaior(listaArray) {
+    let maiorNumero = listaArray[0]; 
+    for (let i = 0; i < listaArray.length; i++) {
+        if (listaArray[i] > maiorNumero) {
+            maiorNumero = listaArray[i];
+        }
+    }
+    return maiorNumero;
+}
+
+const numeros = [14, 15, 20, 19, 11]
+var encontrarMaior = dizerOMaior(numeros)
+console.log('o maior número dessa lista é: ', encontrarMaior)
+*/
+
+/*
+function somarNumerosComArray() {
+    let numeros = [];
+    let numero = 1;
+
+
+    while (numero !== 0) {
+        numero = Number(prompt('digite um número ou 0 para sair.'))
+        numeros.push(numero) //adiciona um elemento para o array (array numeros adiciona let numero)
+    }
+    var soma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+    return soma      
+}
+console.log(somarNumerosComArray())
+*/
